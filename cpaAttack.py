@@ -74,7 +74,7 @@ def get_correct_subkey_byte(byte_index, traces, plaintexts):
             max_coefficient = guess_coefficient
             best_subkey_guess = subkey_guess
 
-    return best_subkey_guess, max_coefficient * 100
+    return best_subkey_guess, max_coefficient
 
 
 def get_key(traces, plaintexts):
